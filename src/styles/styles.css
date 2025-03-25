@@ -1,1 +1,51 @@
 @import url('global.css');
+
+/* ----------------- HEADER ----------------------*/
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--color-neutral-silver);
+}
+
+.logo{
+    padding: 30px 0px;
+}
+
+.nav-header ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+
+}
+
+.nav-header ul a{
+    text-decoration: none;
+    color: var(--color-neutral-black);
+}
+
+.active{
+    font-weight: bold;
+}
+
+.btn-login{
+    color: var(--color-primary);
+    background-color: transparent;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-SignUp{
+    color: var(--color-neutral-white);
+    background-color: var(--color-primary);
+    border-radius: 6px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-header{
+    gap: 14px;
+    padding: 22px 0px;
+}
+/* ----------------- HEADER ----------------------*/
