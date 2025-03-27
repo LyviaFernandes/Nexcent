@@ -77,6 +77,7 @@ h1{
 
 .content-lessons p{
     margin-top: 16px;    
+    margin-bottom: 32px;
 }
 
 
@@ -128,7 +129,6 @@ h1{
 
 .cards-container article{
     width: 299px;
-    height: 260px;
     box-shadow: 0px 2px 4px rgba(171, 190, 209, 0.2);
     padding: 24px 16px;
     text-align: center;
@@ -150,8 +150,60 @@ h1{
 }
 
 .cards-container article p{
+    margin-top: 8px;
     font-size: 14px;
     line-height: 1.6;
 }
 
+
 /* ------------ FIM MANAGE SYSTEM ------------ */
+/* .content h2{
+    width: 601px;
+    height: 88px;
+    color: var(--color-neutral-d_grey);
+}
+
+.content p{
+    width: 601px;
+    height: 80px;
+    color: var(--color-neutral-grey);
+}
+
+.content button{
+    background-color: var(--color-primary);
+    color: var(--color-neutral-white);
+    border-radius: 4px;
+    padding: 14px 32px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-evenly;
+} */
+
+/* ------------ FIM MANAGE SYSTEM ------------ */
+
+.pixelgrade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 42px;
+    gap: 49px;
+    padding: 52px;
+
+}
+
+.pixelgrade-content{
+    width: 450px;
+}
+
+.pixelgrade-content h2{
+    width: 356px;
+    color: var(--color-neutral-d_grey);
+}
+
+.pixelgrade-content p{
+    margin-top: 16px;
+    color: var(--color-neutral-grey);
+}
+

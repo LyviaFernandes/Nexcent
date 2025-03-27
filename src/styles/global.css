@@ -7,6 +7,19 @@
 body{
     font-family: var(--font);
 }
+
+.btn-primary{
+    background-color: var(--color-primary);
+    color: var(--color-neutral-white);
+    border-radius: 4px;
+    padding: 14px 32px;
+    margin-top: 32px
+}
+
+p{
+    color: var(--color-neutral-d_grey);
+}
+
 :root{
     --color-neutral-black: #263238;
     --color-neutral-d_grey: #4D4D4D;
