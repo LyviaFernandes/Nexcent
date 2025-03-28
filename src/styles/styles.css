@@ -207,3 +207,35 @@ h1{
     color: var(--color-neutral-grey);
 }
 
+/*---------------------- Helping local ---------------------- */
+.helping-local{
+    display: flex;
+    margin: 48px 0px;
+    background-color: var(--color-neutral-silver);
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+}
+
+.helping-local h2{
+    width: 270px;
+}
+
+.helping-local h2 span{
+    color: var(--color-primary);
+}
+
+.helping-local p{
+    color: 18191F;
+    margin-top: 8px;
+}
+
+.helping-statistic{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.helping-itens{
+    display: flex;
+}
